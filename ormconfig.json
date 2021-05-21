@@ -1,0 +1,20 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "postgres",
+   "password": "12345",
+   "database": "db_tasks",
+   "logging": false,
+   "entities": [
+      "src/models/entity/*.ts"
+   ],
+   "migrations": [
+      "src/database/migration/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/models/entity",
+      "migrationsDir": "src/database/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
