@@ -1,4 +1,4 @@
-# Projeto vagaBackend
+# Projeto backend em typeORM com JWT
 
 
 Basicamente o projeto possui dois CRUDS de usuário e de endereço, valida o usuário cadastrado, e dá um token de autenticação ao mesmo, alem de amarrar o endereço ao usuário por meio de um ER many to one.
